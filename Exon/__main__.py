@@ -117,7 +117,7 @@ PM_START_TEX = """
 
 PM_START_TEXT = """
 *ʜᴇʟʟᴏ {} !*
-━━━━━━━ *ᴇxᴏɴ* ━━━━━━━
+━━━━━━━ *ᴢᴀɪɴ* ━━━━━━━
 ᴇxᴏɴ ʀᴏʙᴏᴛ ɪꜱ ᴀ 
 ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
 ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ
@@ -131,7 +131,7 @@ PM_START_TEXT = """
      ⍟  *ᴜᴘᴛɪᴍᴇ :* `{}` 
      ⍟  *ᴜsᴇʀs :* `{}`
      ⍟  *ᴄʜᴀᴛs :* `0{}`
-━━━━━━━ *ᴇxᴏɴ* ━━━━━━━ 
+━━━━━━━ *ᴢᴀɪɴ* ━━━━━━━ 
    
 """
 
@@ -156,7 +156,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-━━━━━━━ᴇxᴏɴ━━━━━━━
+━━━━━━━ᴢᴀɪɴ━━━━━━━
 ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ
 ɢᴇᴛ ᴜꜱᴀɢᴇ ᴏꜰ ꜱᴘᴇᴄɪꜰɪᴄꜱ ᴄᴏᴍᴍᴀɴᴅ
 ━━━━━━━━━━━━━━━━━
@@ -277,7 +277,7 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.4)
-            lol.edit_text("🎊")
+            lol.edit_text("🌹")
             time.sleep(0.5)
             lol.edit_text("⚡")
             time.sleep(0.3)
@@ -768,12 +768,12 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/8dea393ddf4fc2e339179.gif",
+                animation="https://telegra.ph/file/97cc0ee1573e05bff2d32.jpg",
                 caption=f"""
 ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 
 ━━━━━━━━━━━━━
-⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [𝐀ʙɪꜱʜɴᴏɪ](https://t.me/{OWNER_USERNAME})
+⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [🅻🅴🅶🅴🅽🅳 🆇](https://t.me/ll_ll_LegendHacker_IN_ll_ll)
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
