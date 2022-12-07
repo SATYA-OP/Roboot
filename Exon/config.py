@@ -45,9 +45,9 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
     # ᴀᴅᴅ ʏᴏᴜʀ ᴠᴇʀs  (ᴍᴀɪɴ ᴠᴇʀs)
-    API_ID = int(getenv("API_ID", ""))
-    API_HASH = getenv("API_HASH")
-    EVENT_LOGS = int(getenv("EVENT_LOGS", ""))
+    API_ID = int(getenv("API_ID", "17057708"))
+    API_HASH = getenv("API_HASH", "b5f97648e6de5f0098db3ca4da989fc3")
+    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001698718312"))
     DATABASE_URI = getenv(
         "DATABASE_URI",
         "postgres://ftmhhlpp:vXFSn6lNyTwI_OOTbGSBbdsQI9hABC1f@ella.db.elephantsql.com/ftmhhlpp",
@@ -55,21 +55,21 @@ class Config(object):
     REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
-        "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://danish:dainshx@cluster0.v3wpjye.mongodb.net/?retryWrites=true&w=majority",
     )
-    TOKEN = getenv("TOKEN", None)
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "Abishnoi1M")
-    OWNER_ID = list(map(int, getenv("OWNER_ID", " ").split()))
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "AbishnoiMF")
+    TOKEN = getenv("TOKEN", "")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "Danishzain05")
+    OWNER_ID = list(map(int, getenv("OWNER_ID", "1066742780").split()))
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "Friendly_Chat_Group")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
     MONGO_DB = "Exon"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_URL = "https://arq.hamker.in"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_KEY = "TENRCY-KDKSK-MSMSM-OXQYYO-ARQ"
-    DONATION_LINK = "t.me/AbishnoiMF"
-    HELP_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    START_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    UPDATES_CHANNEL = "Abishnoi_bots"
+    DONATION_LINK = "t.me/Friendly_Chat_Group"
+    HELP_IMG = "https://telegra.ph/file/97cc0ee1573e05bff2d32.jpg"
+    START_IMG = "https://telegra.ph/file/97cc0ee1573e05bff2d32.jpg"
+    UPDATES_CHANNEL = "Friendly_Chat_Group"
     INFOPIC = False
     GENIUS_API_TOKEN = "28jwoKAkskaSjsnsksAjnwjUJwj"
     SPAMWATCH_API = None
@@ -90,7 +90,7 @@ class Config(object):
     ALLOW_EXCL = []
     ALLOW_CHATS = True
     CERT_PATH = []
-    SPAMWATCH_SUPPORT_CHAT = "AbishnoiMF"
+    SPAMWATCH_SUPPORT_CHAT = "Friendly_Chat_Group"
     BOT_API_URL = "https://api.telegram.org/bot"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     DRAGONS = get_user_list("elevated_users.json", "sudos")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     DEV_USERS = get_user_list("elevated_users.json", "devs")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
