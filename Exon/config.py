@@ -59,7 +59,7 @@ class Config(object):
     )
     TOKEN = getenv("TOKEN", "5972458699:AAH0KvbOa-pQB24yPbD_DXcYJ-yhVGbbVS8")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "Danishzain05")
-    OWNER_ID = list(map(int, getenv("OWNER_ID", None).split()))
+    OWNER_ID = list(map(int, getenv("OWNER_ID", "1066742780").split()))
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "Friendly_Chat_Group")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
