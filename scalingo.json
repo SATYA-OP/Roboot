@@ -16,7 +16,7 @@
             "value": "5255621"
         },
         "API_HASH": {
-            "description": "ʏᴏᴜʀ ᴛɢ HASH ɪᴅ",,
+            "description": "ʏᴏᴜʀ ᴛɢ HASH ɪᴅ",
             "required": true,
             "value": "89e91fb8e938e6da593b3a7929f14a29"
         },
@@ -31,22 +31,22 @@
             "value": "1066742780"
         },
         "OWNER_USERNAME": {
-            "description": "ur owner username fill"
+            "description": "ur owner username fill",
             "required": true,
             "value": "Danishzain05"
         },
         "SUPPORT_CHAT": {
-            "description": "ur grp id"
+            "description": "ur grp id",
             "required": true,
             "value": "Friendly_Chat_Group"
         },
         "MONGO_DB_URI": {
-            "description": "ur mongodb"
+            "description": "ur mongodb",
             "required": true,
             "value": "mongodb+srv://danish:danishx@cluster0.v3wpjye.mongodb.net/?retryWrites=true&w=majority"
         },
         "EVENT_LOGS": {
-            "description": "ur prvt grp link"
+            "description": "ur prvt grp link",
             "required": true,
             "value": "-1001698718312"
         }
