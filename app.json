@@ -1,65 +1,55 @@
 {
-      "name": "Exon Robot",
-      "description": "Telegram Group Management Bot.",
-      "keywords": [
-         "telegram",
-         "sexy",
-         "management",
-         "manager",
-         "Exon"
-      ],   
-   "repository": "https://github.com/Abishnoi69/ExonRobot",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         }
-      }
-   ],
-   "env": {
-      "TOKEN": {
-         "description": "Get bot token from @BotFather on TG",
-         "required": true,
-         "value": ""
-      },
-      "API_ID": {
-         "description": "Get this value from my.telegram.org/apps.",
-         "required": true,
-         "value": ""
-      },
-      "API_HASH": {
-         "description": "Get this value from my.telegram.org/apps.",
-         "required": true,
-         "value": ""
-      },    
-      "DATABASE_URI": {
-         "description": "Your postgres sql db.",
-         "required": true,
-         "value": ""
-      },      
-      "OWNER_ID": {
-         "description": "Your user ID as an integer.",
-         "required": true,
-         "value": ""
-      },
-      "OWNER_USERNAME": {
-         "description": "Your username without the @",
-         "value": ""
-      },
-      "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Exon Support than consider you made an enemy.",
-         "required": true,
-         "value": "AbishnoiMF"
-      },
-      "MONGO_DB_URI": {
-         "description": "Required for database connections.",
-         "required": true,
-         "value": ""
-      },
-      "EVENT_LOGS": {
-         "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
-         "required": true,
-         "value": ""
-   }
-   }
-}
+    "name": "roboot",
+    "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
+    "keywords": ["AsuX", "AsuX", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "tg-py-calls"],
+    "repository": "https://github.com/SATYA-OP/Roboot",
+  "stack": "container",
+    "env": {
+        "TOKEN": {
+            "description": "Get bot token from @BotFather on TG",
+            "required": true,
+            "value": "5972458699:AAH0KvbOa-pQB24yPbD_DXcYJ-yhVGbbVS8"
+        },
+        "API_ID": {
+            "description": "Get this value from my.telegram.org/apps",
+            "required": true,
+            "value": "5255621"
+        },
+        "API_HASH": {
+            "description": "ʏᴏᴜʀ ᴛɢ HASH ɪᴅ",,
+            "required": true,
+            "value": "89e91fb8e938e6da593b3a7929f14a29"
+        },
+        "DATABASE_URI": {
+            "description": "ᴀ ᴍᴏɴɢᴏᴅʙ ᴄʟᴏᴜᴅ ᴅᴀᴛᴀʙᴀsᴇ ᴜʀʟ ғʀᴏᴍ cloud.mongodb.com",
+            "required": true,
+            "value": "postgres://knwbgwbf:3jDv5t0yn1lii5KLqEBm91j-BXhi0Et6@peanut.db.elephantsql.com/knwbgwbf"
+        },
+        "OWNER_ID": {
+            "description": "fill with your bot owner id get from @BotFather on telegram",
+            "required": true,
+            "value": "1066742780"
+        },
+        "OWNER_USERNAME": {
+            "description": "ur owner username fill"
+            "required": true,
+            "value": "Danishzain05"
+        },
+        "SUPPORT_CHAT": {
+            "description": "ur grp id"
+            "required": true,
+            "value": "Friendly_Chat_Group"
+        },
+        "MONGO_DB_URI": {
+            "description": "ur mongodb"
+            "required": true,
+            "value": "mongodb+srv://danish:danishx@cluster0.v3wpjye.mongodb.net/?retryWrites=true&w=majority"
+        },
+        "EVENT_LOGS": {
+            "description": "ur prvt grp link"
+            "required": true,
+            "value": "-1001698718312"
+        }
+
+    }
+  }
